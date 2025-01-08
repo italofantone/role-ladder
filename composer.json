@@ -1,0 +1,39 @@
+{
+    "name": "italofantone/role-ladder",
+    "description": "A Laravel package to manage roles with a hierarchical structure, represented as a clear and intuitive ladder.",
+    "keywords": ["laravel", "roles", "permissions", "hierarchical", "ladder", "role-ladder", "structure"],
+    "type": "library",
+    "require": {
+        "php": "^8.1",
+        "illuminate/database": "^10.0|^11.0",
+        "illuminate/support": "^10.0|^11.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.3",
+        "orchestra/testbench": "^9.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Italofantone\\RoleLadder\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Italofantone\\RoleLadder\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Italo Morales Fantone",
+            "email": "i@rimorsoft.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Italofantone\\RoleLadder\\RoleLadderServiceProvider"
+            ]
+        }
+    }
+}
