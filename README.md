@@ -29,6 +29,12 @@ Route::middleware('auth:sanctum')->group(function () {
 });
 ```
 
+To publish the configuration files for **Role Ladder**, run the following artisan command:
+
+```
+php artisan vendor:publish --tag=role-ladder-config
+```
+
 ## Contact
 
 - **Email**: [i@rimorsoft.com](mailto:i@rimorsoft.com)
